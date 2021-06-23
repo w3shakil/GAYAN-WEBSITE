@@ -1,0 +1,513 @@
+@media (max-width: 1399px) and (min-width: 1200px) {
+    /* navbar part start*/
+    .navbar {       
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    /* navbar part end*/    
+    /* detl part start*/
+    #detl {
+        margin-left: 0px;
+       }
+    /* detl part end*/
+     /* about part start*/
+     #about {
+        padding-top: 20px;
+    }
+    /* about part end*/
+     /* course part start*/
+         .fee {
+            margin-left: 12px;
+     }
+     .main-course{
+            padding: 0 35px;
+     }   
+     .arrow-left {        
+        left: -35px;   
+        transform: scale(.9);     
+    }
+    .arrow-right {       
+        right: -35px; 
+        transform: scale(.9);                 
+    }
+     /* course part end*/
+
+
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    /* navbar part start*/
+    .navbar {       
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    /* navbar part end*/
+    /* banner part start*/
+    #banner .right, #banner .left {
+        transform: scale(.9) ;       
+    }
+    /* banner part end*/
+    /* detl part start*/
+    #detl {
+        margin-left: 0px;
+       }
+    /* detl part end*/
+    /* about part start*/
+    #about {
+        padding-top: 20px;
+    }
+    /* about part end*/
+     /* course part start*/
+     .fee {
+        margin-left: 12px;
+    }
+    .main-course{
+        padding: 0 120px;
+    }   
+    /* course part end*/
+    /* event part start*/
+    .join-button-main{
+        display: block;        
+    } 
+    .slider-content p {       
+        margin-bottom: 5px;
+    }
+    /* event part end*/
+    /* testimonial part start*/
+    #test {
+        margin-top: 60px;      
+    }
+    /* testimonial part end*/
+    /* teacher part start*/
+    #teacher {
+        padding-top: 60px;
+    }
+    /* teacher part end*/
+
+
+
+
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    /* topper part start*/
+    .topper-right {
+        margin-left: 0px;
+    }
+    .topper i {        
+        margin-left: 50px;
+    }
+    /* topper part end*/
+     /* navbar part start*/
+     .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0px;
+        padding-top: 15px;
+    }
+    .button {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .navbar-brand {
+        width: 18%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {       
+        font-size: 18px;       
+    }
+    .button a {
+        padding: 12px 22px;       
+    }
+    /* navbar part end*/
+        /* banner part start*/
+        .banner-text h3 {
+            font-size: 40px;
+        }
+        .banner-text h1 {
+            font-size: 52px;
+        }
+        .banner-text p {
+            margin-top: 25px;
+            margin-right: 0px;
+            font-size: 16px;
+        }
+        #banner .right,
+        #banner .left {
+            display: none !important;
+        }
+        .banner-text a {
+            font-size: 20px;
+            padding: 18px 18px;
+            margin-right: 15px;
+        }
+        .head p {
+            padding: 0 50px;
+        }
+        /* banner part end*/
+          /* detl part start*/
+     #detl {
+         margin-left: 0px;
+        }
+   /* detl part end*/
+    /* about part start*/
+    #about {
+        padding-top: 10px;
+    }  
+    .head p {
+        padding: 0 160px;
+    }
+    /* about part end*/
+    /* course part start*/
+    .fee {
+        margin-left: 12px;
+    }
+    /* course part end*/
+     /* event part start*/
+     .pb-calender{
+        padding: 0 120px;
+        margin-bottom: 30px;
+    }
+    .event-slider-main{
+        padding: 0 70px;        
+    }
+    .join-button-main{
+        display: block;
+        margin-top: 35px;
+    } 
+    .slider-content p {       
+        margin-bottom: 15px;
+    }
+    /* event part end*/
+    /* test part start*/
+    #test {
+        margin-top: 50px;       
+    }
+    .test-text p {       
+        margin-top: 20px;
+    }
+    .ad-width{
+        padding: 0 120px;
+        margin-top: 40px;
+    }
+    /* test part end*/
+     /* teacher part start*/
+     #teacher {
+        padding-top: 30px;
+    }    
+    .teacher-item {
+        padding-bottom: 120px;
+    }
+    /* teacher part end*/
+    /* blog part start*/
+    #blog {
+        padding-top: 105px !important;
+    }
+    /* blog part end*/
+    /* project part start*/
+    .img-text h3 {
+        text-align: center;
+    }
+    .img-text p {
+        text-align: center;
+    }
+    /* project part end*/
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    /* topper part start*/
+    #topper {
+        line-height: 25px;
+    }
+    .topper-right a span {        
+        padding: 0 0px;    
+    }
+    .topper-right a span {      
+        font-size: 12px;       
+    }
+    /* topper part end*/
+    /* navbar part start*/
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .button {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .navbar-brand {
+        width: 18%;
+    }
+    /* navbar part end*/
+    /* banner part start*/
+    .banner-text h3 {
+        font-size: 28px;
+    }
+    .banner-text h1 {
+        font-size: 43px;
+    }
+    .banner-text p {
+        margin-top: 40px;
+        margin-right: 0px;
+        font-size: 16px;
+    }
+    #banner .right,
+    #banner .left {
+        display: none !important;
+    }
+    .banner-text a {
+        font-size: 18px;
+        padding: 14px 14px;
+        margin-right: 12px;
+    }    
+    /* banner part end*/            
+   /* detl part start*/
+   #detl {
+    margin-left: 0px;
+   }
+   /* detl part end*/
+    /* about part start*/
+
+    #about {
+        padding-top: 20px;
+    }
+    .head p {
+        padding: 0 80px;
+    } 
+      
+    /* about part end*/
+    /* course part start*/
+    .arrow-left,
+    .arrow-right {
+        display: none !important;
+    }
+    /* course part end*/
+    /* event part start*/
+    .pb-calender{
+        padding: 0 60px;
+        margin-bottom: 30px;
+    } 
+    .join-button-main{
+        display: block;
+    } 
+    .slider-content p {       
+        margin-bottom: 15px;
+    }
+    /* event part end*/
+    /* testimonial part start*/
+    #test {
+        margin-top: 50px;      
+    }
+    .ad-width{
+        padding: 0 60px;
+    }
+    .main-text{
+        padding: 0 60px;
+    }
+    .test-img{
+        padding: 0 60px;
+    }
+    /* testimonial part end*/
+    /* teacher part start*/
+    #teacher {
+        padding-top: 15px;
+    }
+    .teacher-item {
+        padding-bottom: 120px;
+    }
+    /* teacher part end*/
+    /* blog part start*/
+    #blog {
+        padding-top: 105px !important;
+    }
+    /* blog part end*/
+    /* portfolio part start*/
+    #portfolio .f-btn {
+        font-size: 12px;
+    }
+    /* portfolio part end*/
+    /* project part start*/
+    .img-text h3 {
+        text-align: center;
+    }
+    .img-text p {
+        text-align: center;
+    }
+    /* project part end*/
+}
+
+@media(max-width: 575.98px) {
+    /* topper part start*/
+    .topper-right a span {        
+        padding: 0 0px;    
+    }
+    #topper {
+        line-height: 30px;
+    }
+    /* topper part end*/
+    /* navbar part start*/
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    .button {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    /* navbar part end*/
+    /* banner part start*/
+    .banner-text h3 {
+        font-size: 30px;
+    }
+    .banner-text h1 {
+        font-size: 45px;
+    }
+    .banner-text h1 .typed {
+        display: block;
+    }
+    .banner-text p {
+        margin-top: 40px;
+        margin-right: 0px;
+        font-size: 16px;
+    }
+    #banner .right,
+    #banner .left {
+        display: none !important;
+    }
+    .banner-text a {
+        font-size: 18px;
+        padding: 14px 14px;
+        margin-right: 12px;
+    }
+    /* banner part end*/
+    /* details part start*/
+    #detl {
+        margin-left: 0px;
+    }
+    #detl {
+        top: -55px;
+    }
+    /* details part end*/
+    /* about part start*/
+    #about {
+        padding-top: 0px;
+    }
+    p {
+        margin-top: 20px;
+    }
+    .about-content a {
+        padding: 12px 12px;
+        font-size: 16px;
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    /* about part end*/
+    /* counter part start*/
+    p {
+        margin-top: 0px;
+    }
+    .counter-item p {
+        font-size: 20px;
+    }
+    .counter-item span {
+        font-size: 30px;
+    }
+    /* counter part end*/
+    /* course part start*/
+    .arrow-left,
+    .arrow-right {
+        display: none;
+    }
+    .conduct-name span {
+        font-size: 13px;
+    }
+    .conduct-name h6 {
+        font-size: 13px;
+    }
+    .rat-icon i {
+        font-size: 12px;
+    }
+    .picture img {
+        width: 50px;
+        height: 50px;
+    }
+    .course-content h4 {
+        font-size: 20px;
+    }
+    .course-details span {
+        font-size: 11px;
+    }
+    .fee {
+        margin-left: 12px;
+    }
+    /* course part end*/
+    /* event part start*/
+    #event {
+        padding-top: 60px;
+    }
+    .pb-calender {
+        margin-bottom: 35px;
+    }
+    .head p {
+        margin-bottom: 30px;
+    }
+    .slider-content h5 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .slider-content span {
+        font-size: 12px;
+    }
+    /* event part end*/
+    /* testimonial part start*/
+    #test {
+        margin-top: 40px;
+    }
+    .head h2 {
+        font-size: 31px;
+    }
+    .test-title {
+        display: block;
+    }
+    /* testimonial part end*/
+    /* teacher part start*/
+    #teacher {
+        padding-top: 15px;
+    }
+    .teacher-item {
+        padding-bottom: 120px;
+    }
+    /* teacher part end*/
+    /* blog part start*/
+    #blog {
+        padding-top: 105px !important;
+    }
+    .blog-icon {
+        display: none;
+    }
+    .date {
+        display: none !important;
+    }
+    /* blog part end*/
+    /* portfolio part start*/
+    #portfolio .f-btn {
+        font-size: 12px;
+        padding: 5px 1px;
+    }
+    /* portfolio part end*/
+    /* project part start*/
+    .img-text h3 {
+        text-align: center;
+    }
+    .img-text p {
+        text-align: center;
+    }
+    /* project part end*/
+    /* footer part start*/
+    .coppy-text p {
+        font-size: 14px;
+    }
+    /* footer part end*/
+    /* back to top start*/
+    .back-to-top {
+        bottom: 40px;
+    }
+    /* back to top end*/
+}
