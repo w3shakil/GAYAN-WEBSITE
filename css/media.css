@@ -1,80 +1,137 @@
-@media (max-width: 1399px) and (min-width: 1200px) {
+@media (max-width: 1600px) and (min-width: 1400px) {
+    /* topper part start*/
+    .login {
+        margin-right: 130px;
+    }
+    /* topper part end/
     /* navbar part start*/
-    .navbar {       
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    /* navbar part end*/    
-    /* detl part start*/
-    #detl {
-        margin-left: 0px;
-       }
-    /* detl part end*/
-     /* about part start*/
-     #about {
-        padding-top: 20px;
-    }
-    /* about part end*/
-     /* course part start*/
-         .fee {
-            margin-left: 12px;
-     }
-     .main-course{
-            padding: 0 35px;
-     }   
-     .arrow-left {        
-        left: -35px;   
-        transform: scale(.9);     
-    }
-    .arrow-right {       
-        right: -35px; 
-        transform: scale(.9);                 
-    }
-     /* course part end*/
-
-
-}
-@media (max-width: 1199px) and (min-width: 992px) {
-    /* navbar part start*/
-    .navbar {       
-        padding-top: 10px;
-        padding-bottom: 20px;
+    .button {
+        margin-right: 130px;
     }
     /* navbar part end*/
     /* banner part start*/
-    #banner .right, #banner .left {
-        transform: scale(.9) ;       
+    #banner .right {
+        right: 110px;
     }
     /* banner part end*/
+    /*detl part start*/
+    #detl {
+        margin-left: 0;
+        margin-right: 65px;
+    }
+    /*detl part end*/
+    /*course part start*/
+    #courses {
+        margin-right: 180px;
+        margin-left: 80px;
+    }
+    /*course part end*/
+    /*testimonial part start*/
+    #test {
+        margin-right: 180px;
+        margin-left: 60px;
+    }
+    /*testimonial part end*/
+    /*back to top part start*/
+    .back {
+        right: 250px;
+    }
+    /*back to top part end*/
+    @media (max-width: 1800px) and (min-width: 1600px) {
+        #banner .right {
+            right: 300px;
+        }
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+    /* navbar part start*/
+    .navbar {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    /* navbar part end*/
     /* detl part start*/
     #detl {
         margin-left: 0px;
-       }
+    }
     /* detl part end*/
     /* about part start*/
     #about {
         padding-top: 20px;
     }
     /* about part end*/
-     /* course part start*/
-     .fee {
+    /* course part start*/
+    .fee {
         margin-left: 12px;
     }
-    .main-course{
+    .main-course {
+        padding: 0 35px;
+    }
+    .arrow-left {
+        left: -35px;
+        transform: scale(.9);
+    }
+    .arrow-right {
+        right: -35px;
+        transform: scale(.9);
+    }
+    /* course part end*/
+    /*back to top part start*/
+    .back {
+        right: 65px;
+    }
+    /*back to top part end*/
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    /* navbar part start*/
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    /* navbar part end*/
+    /* banner part start*/
+    #banner .right,
+    #banner .left {
+        transform: scale(.9);
+    }
+    /* banner part end*/
+    /* detl part start*/
+    #detl {
+        margin-left: 0px;
+    }
+    /* detl part end*/
+    /* about part start*/
+    #about {
+        padding-top: 20px;
+    }
+    .about-content {
+        padding-left: 5px;
+    }
+    .about-content p {
+        font-size: 16px;
+    }
+    /* about part end*/
+    /* course part start*/
+    .fee {
+        margin-left: 12px;
+    }
+    .main-course {
         padding: 0 120px;
-    }   
+    }
     /* course part end*/
     /* event part start*/
-    .join-button-main{
-        display: block;        
-    } 
-    .slider-content p {       
+    .join-button-main {
+        display: block;
+    }
+    .slider-content p {
         margin-bottom: 5px;
     }
     /* event part end*/
     /* testimonial part start*/
     #test {
-        margin-top: 60px;      
+        margin-top: 60px;
     }
     /* testimonial part end*/
     /* teacher part start*/
@@ -82,24 +139,11 @@
         padding-top: 60px;
     }
     /* teacher part end*/
-
-
-
-
-
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    /* topper part start*/
-    .topper-right {
-        margin-left: 0px;
-    }
-    .topper i {        
-        margin-left: 50px;
-    }
-    /* topper part end*/
-     /* navbar part start*/
-     .navbar-expand-lg .navbar-nav .nav-link {
+    /* navbar part start*/
+    .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0px;
         padding-top: 15px;
     }
@@ -110,49 +154,67 @@
     .navbar-brand {
         width: 18%;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {       
-        font-size: 18px;       
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
     }
     .button a {
-        padding: 12px 22px;       
+        padding: 12px 22px;
     }
     /* navbar part end*/
-        /* banner part start*/
-        .banner-text h3 {
-            font-size: 40px;
-        }
-        .banner-text h1 {
-            font-size: 52px;
-        }
-        .banner-text p {
-            margin-top: 25px;
-            margin-right: 0px;
-            font-size: 16px;
-        }
-        #banner .right,
-        #banner .left {
-            display: none !important;
-        }
-        .banner-text a {
-            font-size: 20px;
-            padding: 18px 18px;
-            margin-right: 15px;
-        }
-        .head p {
-            padding: 0 50px;
-        }
-        /* banner part end*/
-          /* detl part start*/
-     #detl {
-         margin-left: 0px;
-        }
-   /* detl part end*/
+    /* banner part start*/
+    .banner-text h3 {
+        font-size: 40px;
+    }
+    .banner-text h1 {
+        font-size: 52px;
+    }
+    .banner-text p {
+        margin-top: 25px;
+        margin-right: 0px;
+        font-size: 16px;
+    }
+    #banner .right,
+    #banner .left {
+        display: none !important;
+    }
+    .banner-text a {
+        font-size: 20px;
+        padding: 18px 18px;
+        margin-right: 15px;
+    }
+    .head p {
+        padding: 0 50px;
+    }
+    /* banner part end*/
+    /* detl part start*/
+    #detl {
+        margin-left: 0px;
+    }
+    /* detl part end*/
     /* about part start*/
     #about {
         padding-top: 10px;
-    }  
+    }
     .head p {
         padding: 0 160px;
+    }
+    .slider {
+        width: 360px;
+    }
+    .about-content {
+        padding-left: 0px;
+    }
+    .about-content a {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin-right: 4px;
+        margin-top: 11px;
+    }
+    .side {
+        margin-right: 15px !important;
+    }
+    .about-content p {
+        font-size: 16px;
     }
     /* about part end*/
     /* course part start*/
@@ -160,38 +222,38 @@
         margin-left: 12px;
     }
     /* course part end*/
-     /* event part start*/
-     .pb-calender{
+    /* event part start*/
+    .pb-calender {
         padding: 0 120px;
         margin-bottom: 30px;
     }
-    .event-slider-main{
-        padding: 0 70px;        
+    .event-slider-main {
+        padding: 0 70px;
     }
-    .join-button-main{
+    .join-button-main {
         display: block;
         margin-top: 35px;
-    } 
-    .slider-content p {       
+    }
+    .slider-content p {
         margin-bottom: 15px;
     }
     /* event part end*/
     /* test part start*/
     #test {
-        margin-top: 50px;       
+        margin-top: 50px;
     }
-    .test-text p {       
+    .test-text p {
         margin-top: 20px;
     }
-    .ad-width{
+    .ad-width {
         padding: 0 120px;
         margin-top: 40px;
     }
     /* test part end*/
-     /* teacher part start*/
-     #teacher {
+    /* teacher part start*/
+    #teacher {
         padding-top: 30px;
-    }    
+    }
     .teacher-item {
         padding-bottom: 120px;
     }
@@ -213,14 +275,8 @@
 
 @media (max-width: 767px) and (min-width: 576px) {
     /* topper part start*/
-    #topper {
-        line-height: 25px;
-    }
-    .topper-right a span {        
-        padding: 0 0px;    
-    }
-    .topper-right a span {      
-        font-size: 12px;       
+    .mail {
+        display: none;
     }
     /* topper part end*/
     /* navbar part start*/
@@ -256,22 +312,26 @@
         font-size: 18px;
         padding: 14px 14px;
         margin-right: 12px;
-    }    
-    /* banner part end*/            
-   /* detl part start*/
-   #detl {
-    margin-left: 0px;
-   }
-   /* detl part end*/
+    }
+    /* banner part end*/
+    /* detl part start*/
+    #detl {
+        margin-left: 0px;
+    }
+    /* detl part end*/
     /* about part start*/
-
     #about {
         padding-top: 20px;
     }
     .head p {
         padding: 0 80px;
-    } 
-      
+    }
+    .device {
+        margin-top: 40px;
+    }
+    .about-content p {
+        font-size: 16px;
+    }
     /* about part end*/
     /* course part start*/
     .arrow-left,
@@ -280,28 +340,28 @@
     }
     /* course part end*/
     /* event part start*/
-    .pb-calender{
+    .pb-calender {
         padding: 0 60px;
         margin-bottom: 30px;
-    } 
-    .join-button-main{
+    }
+    .join-button-main {
         display: block;
-    } 
-    .slider-content p {       
+    }
+    .slider-content p {
         margin-bottom: 15px;
     }
     /* event part end*/
     /* testimonial part start*/
     #test {
-        margin-top: 50px;      
+        margin-top: 50px;
     }
-    .ad-width{
+    .ad-width {
         padding: 0 60px;
     }
-    .main-text{
+    .main-text {
         padding: 0 60px;
     }
-    .test-img{
+    .test-img {
         padding: 0 60px;
     }
     /* testimonial part end*/
@@ -335,11 +395,19 @@
 
 @media(max-width: 575.98px) {
     /* topper part start*/
-    .topper-right a span {        
-        padding: 0 0px;    
+    .phone {
+        display: none;
     }
-    #topper {
-        line-height: 30px;
+    .mail {
+        display: none;
+    }
+    .topper {
+        position: relative;
+    }
+    .login {
+        position: absolute;
+        top: 5px;
+        right: 15px;
     }
     /* topper part end*/
     /* navbar part start*/
@@ -389,14 +457,20 @@
     #about {
         padding-top: 0px;
     }
-    p {
-        margin-top: 20px;
+    .device {
+        margin-top: 40px;
+    }
+    .about-content p {
+        font-size: 14px;
     }
     .about-content a {
         padding: 12px 12px;
         font-size: 16px;
         margin-right: 15px;
         margin-top: 30px;
+    }
+    .slider {
+        margin-left: 50px;
     }
     /* about part end*/
     /* counter part start*/
@@ -490,6 +564,12 @@
     #portfolio .f-btn {
         font-size: 12px;
         padding: 5px 1px;
+    }
+    .port-info h5 {
+        font-size: 18px;
+    }
+    .port-info p {
+        font-size: 13px;
     }
     /* portfolio part end*/
     /* project part start*/

@@ -68,55 +68,43 @@ $(function() {
     // banner slider end
     // banner typed js start
 
-    $(function() {
-        $(".typed").typed({
-            strings: [" Future", " Life", " Wise"],
-            // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-            stringsElement: null,
-            // typing speed
-            typeSpeed: 30,
-            // time before typing starts
-            startDelay: 1200,
-            // backspacing speed
-            backSpeed: 20,
-            // time before backspacing
-            backDelay: 500,
-            // loop
-            loop: true,
-            // false = infinite
-            loopCount: 5,
-            // show cursor
-            showCursor: false,
-            // character for cursor
-            cursorChar: "|",
-            // attribute to type (null == text)
-            attr: null,
-            // either html or text
-            contentType: 'html',
-            // call when done callback function
-            callback: function() {},
-            // starting callback function before each string
-            preStringTyped: function() {},
-            //callback for every typed string
-            onStringTyped: function() {},
-            // callback for reset
-            resetCallback: function() {}
-        });
+    $(".typed").typed({
+        strings: ["Future", "Life", "person"],
+        // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+        stringsElement: null,
+        // typing speed
+        typeSpeed: 30,
+        // time before typing starts
+        startDelay: 1200,
+        // backspacing speed
+        backSpeed: 20,
+        // time before backspacing
+        backDelay: 500,
+        // loop
+        loop: true,
+        // false = infinite
+        loopCount: 10,
+        // show cursor
+        showCursor: false,
+        // character for cursor
+        cursorChar: "|",
+        // attribute to type (null == text)
+        attr: null,
+        // either html or text
+        contentType: 'html',
+        // call when done callback function
+        callback: function() {},
+        // starting callback function before each string
+        preStringTyped: function() {},
+        //callback for every typed string
+        onStringTyped: function() {},
+        // callback for reset
+        resetCallback: function() {}
     });
-
 
     // banner typed js end
     // about part star 
 
-    $('.about-slider-main').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        speed: 1500,
-        arrows: false,
-        pauseOnHover: false,
-    });
 
     //about part end
     //counter up start
@@ -146,14 +134,14 @@ $(function() {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }
-            },            
+            },
             {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
                 }
-            },           
+            },
         ]
 
     });
@@ -169,6 +157,7 @@ $(function() {
         speed: 1500,
         arrows: false,
         vertical: true,
+        verticalSwiping: true,
         pauseOnHover: false,
         responsive: [{
                 breakpoint: 576,
@@ -224,34 +213,34 @@ $(function() {
     //wow js part end
     //portfolio part start
 
-    var containerEl = document.querySelector('.main-portfolio-item');
+    var containerEl = document.querySelector('.portfolio-main');
 
     var mixer = mixitup(containerEl);
-
 
     $('.venobox').venobox({
         spinner: 'double-bounce',
         spinColor: '#FBAA33',
-        arrowsColor: '#FBAA33'
+        arrowsColor: '#FBAA33',
+        closeColor: '#FBAA33',
     });
 
     //portfolio part end
     //footer slider start
 
-    $('.footer-slider-main').slick({
+    $('.foot-main').slick({
         slidesToShow: 7,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         speed: 1500,
-        arrows: false,
         pauseOnHover: false,
+        pauseOnFocus: false,
+        arrows: false,
         responsive: [{
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    vertical: false,
                 }
             },
             {
@@ -259,7 +248,6 @@ $(function() {
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    vertical: false,
                 }
             },
             {
@@ -267,7 +255,6 @@ $(function() {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
-                    vertical: false,
                 }
             },
             {
@@ -275,7 +262,6 @@ $(function() {
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 4,
-                    vertical: false,
                 }
             },
             {
@@ -283,7 +269,6 @@ $(function() {
                 settings: {
                     slidesToShow: 5,
                     slidesToScroll: 5,
-                    vertical: false,
                 }
             },
             {
@@ -291,30 +276,27 @@ $(function() {
                 settings: {
                     slidesToShow: 6,
                     slidesToScroll: 6,
-                    vertical: false,
                 }
-            },
+            }
         ]
-
     });
+
 
     //footer slider end
     // back-to-top part start
 
-    $('.back-to-top').on('click', function() {
-        $('html , body').animate({ scrollTop: 0 }, 1000);
+    $('.back').click(function() {
+        $('html,body').animate({ scrollTop: 0 }, 1000);
     });
 
-
-    $(window).on('scroll', function() {
+    $(window).scroll(function() {
         var scrolling = $(this).scrollTop();
-
         if (scrolling > 300) {
-            $('.back-to-top').fadeIn(500);
-        } else { $('.back-to-top').fadeOut(500); }
+            $('.back').fadeIn(500);
+        } else {
+            $('.back').fadeOut(500);
+        }
     });
-
     // back-to-top part end
-
 
 });

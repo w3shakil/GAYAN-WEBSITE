@@ -34,27 +34,42 @@
 
     <section id="topper">
         <div class="container-xl">
-            <div class="row main-topper">
-                <div class="col-lg-9 col-sm-9 col-md-9 col-6">
-                    <div class="topper ">
-                        <p>Have any Trouble?</p>
-                        <i class="fa fa-phone d-none d-sm-block"></i>
-                        <p class="d-none d-sm-block">(+880) 1234 567 890</p>
-                        <i class="gmail fa fa-envelope  d-none d-md-block"></i>
-                        <span class="md-text-end d-none d-md-block">gyan@gmail.com</span>
+            <div class="row">
+                <div class="col-xl-6 col-sm-8 col-md-8  col-lg-7">
+                    <div class="row">
+                        <div class="col-xl-4 col-sm-6 col-md-4 col-lg-4">
+                            <div class="trouble">
+                                <span>Have any Trouble?</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-sm-6 col-md-4 col-lg-4">
+                            <div class="phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span><a href="tel:(+880) 1234 567 890  ">
+                            (+880) 1234 567 890  
+                        </a></span>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4  col-lg-4">
+                            <div class="mail">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span><a href="mailto:gyan@gmail.com">
+                            gyan@gmail.com
+                        </a></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3  col-6 col-sm-3 col-md-3 ms-auto">
-                    <div class="topper-right text-end">
-                        <a href="#"><span>register</span></a>
-                        <p>/</p>
-                        <a href="#"><span>login</span></a>
+                <div class="col-xl-6 col-sm-4 col-md-4 col-lg-5">
+                    <div class="login">
+                        <span class="rl">Register</span>
+                        <span>/</span>
+                        <span class="rl">Login</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!--topper part end-->
     <!--navbar part start-->
 
@@ -114,7 +129,7 @@
                     <div class="col-lg-8 offset-lg-2">
                         <div class="banner-text">
                             <h3 class="m-0">Let’s Learn</h3>
-                            <h1 class="m-0">For BRIGHT<span class="typed"></span></h1>
+                            <h1 class="m-0">For BRIGHT <span class="typed"></span></h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus comodo viverra maecenas accumsan lacus vel facilisis.
                             </p>
                             <a href="#">Start a Course</a>
@@ -181,33 +196,35 @@
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-md-6 overflow-hidden">
+                <div class="col-md-8 col-lg-7 col-xl-6">
                     <div class="line1 d-flex justify-content-start">
                         <div class="large-line"></div>
                         <div class="small-line ms-1"></div>
                     </div>
-                    <div class="about-slider-main">
-                        <div class="slider-item">
-                            <img src="images/3d1.png" alt="3d1.png" class="w-100 img-fluid">
-                        </div>
-                        <div class="slider-item">
-                            <img src="images/3d2.png" alt="3d2.png" class="w-100 img-fluid">
-                        </div>
-                        <div class="slider-item">
-                            <img src="images/3d3.png" alt="3d3.png" class="w-100 img-fluid">
-                        </div>
+                    <div class="slider">
+                        <input type="radio" name="slider" id="s1" checked>
+                        <input type="radio" name="slider" id="s2">
+                        <input type="radio" name="slider" id="s3">
+                        <input type="radio" name="slider" id="s4">
+                        <input type="radio" name="slider" id="s5">
+
+                        <label for="s1" id="slide1"></label>
+                        <label for="s2" id="slide2"></label>
+                        <label for="s3" id="slide3"></label>
+                        <label for="s4" id="slide4"></label>
+                        <label for="s5" id="slide5"></label>
                     </div>
                     <div class="line2 d-flex justify-content-end w-100">
                         <div class="small-line"></div>
                         <div class="large-line ms-1"></div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="about-content ps-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus coodo vivera maecenas accumsan lacus vel facilisis. Lorem
+                <div class="col-md-4 col-lg-5 col-xl-6">
+                    <div class="about-content">
+                        <p class="device">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus coodo vivera maecenas accumsan lacus vel facilisis. Lorem
                             ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                         <p>et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                        <a href="#" class="text-capitalize ">know more</a>
+                        <a href="#" class="text-capitalize side">know more</a>
                         <a href="#" class="text-capitalize ">enroll now</a>
                     </div>
                 </div>
@@ -306,7 +323,7 @@
                                         <span>4.8 Ratings</span>
                                     </div>
                                 </div>
-                                <h4>advanced graphic design</h4>
+                                <h4>advanced web design</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="course-line"></div>
                                 <div class="course-details">
@@ -344,7 +361,7 @@
                                     </div>
                                     <div class="conduct-name ms-2">
                                         <span>Conduct by:</span>
-                                        <h6 class="text-capitalize">Johan Michalvina</h6>
+                                        <h6 class="text-capitalize">kilen mishra</h6>
                                     </div>
                                     <div class="ratings-icon ms-auto">
                                         <div class="rat-icon">
@@ -357,7 +374,7 @@
                                         <span>4.8 Ratings</span>
                                     </div>
                                 </div>
-                                <h4>advanced graphic design</h4>
+                                <h4>app development</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="course-line"></div>
                                 <div class="course-details">
@@ -395,7 +412,7 @@
                                     </div>
                                     <div class="conduct-name ms-2">
                                         <span>Conduct by:</span>
-                                        <h6 class="text-capitalize">Johan Michalvina</h6>
+                                        <h6 class="text-capitalize">Johan jichalvina</h6>
                                     </div>
                                     <div class="ratings-icon ms-auto">
                                         <div class="rat-icon">
@@ -459,7 +476,7 @@
                                         <span>4.8 Ratings</span>
                                     </div>
                                 </div>
-                                <h4>advanced graphic design</h4>
+                                <h4>digital marketing</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="course-line"></div>
                                 <div class="course-details">
@@ -519,11 +536,11 @@
                                 <p>Lorem ipsum dolor sit amet, consecteturng elit sed do eiusmod temor</p>
                                 <span><i class="fa fa-map-marker"></i> seminar room</span>
                                 <span class="time"><i class="fa fa-clock-o"></i> 9:00 AM - 1:00 PM</span>
-                               <div class="join-button-main">
-                                <div class="join-button">
-                                    <a href="#" class="text-capitalize">join now</a>
+                                <div class="join-button-main">
+                                    <div class="join-button">
+                                        <a href="#" class="text-capitalize">join now</a>
+                                    </div>
                                 </div>
-                               </div>
                             </div>
                         </div>
                     </div>
@@ -531,11 +548,11 @@
                         <div class="row event-item-wrap">
                             <div class="col-lg-5 col-sm-5 col-md-5 ">
                                 <div class="slider-img">
-                                    <img src="images/calender-inner.png" alt="calender-inner.png" class="w-100 img-fluid">
+                                    <img src="images/calender-inner-2.png" alt="calender-inner.png" class="w-100 img-fluid">
                                 </div>
                             </div>
                             <div class="slider-content col-lg-7 col-sm-7 col-md-7">
-                                <h5>UI/UX Bootcamp Meetup 2018</h5>
+                                <h5>Entrepreneuers Summit 2018</h5>
                                 <p>Lorem ipsum dolor sit amet, consecteturng elit sed do eiusmod temor</p>
                                 <span><i class="fa fa-map-marker"></i> seminar room</span>
                                 <span><i class="fa fa-clock-o"></i> 9:00 AM - 1:00 PM</span>
@@ -543,7 +560,7 @@
                                     <div class="join-button">
                                         <a href="#" class="text-capitalize">join now</a>
                                     </div>
-                                   </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -563,7 +580,7 @@
                                     <div class="join-button">
                                         <a href="#" class="text-capitalize">join now</a>
                                     </div>
-                                   </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -596,10 +613,10 @@
                             <img src="images/testimonial.png" alt="testimonial.png" class="w-100 img-fluid">
                         </div>
                         <div class="test-item">
-                            <img src="images/3d2.png" alt="3d2.png" class="w-100 img-fluid">
+                            <img src="images/test2.jpg" alt="test2" class="w-100 img-fluid">
                         </div>
                         <div class="test-item">
-                            <img src="images/3d3.png" alt="3d3.png" class="w-100 img-fluid">
+                            <img src="images/test3.jpg" alt="test3" class="w-100 img-fluid">
                         </div>
                     </div>
                     <div class="line-y d-flex justify-content-end w-100">
@@ -625,7 +642,7 @@
                     <div class="test-content">
                         <div class="test-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiudr incididunt ut labore et dolore magna aliqua. Ut enim a minim eniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea cmmodo consequat.</p>
-                            <span class="text-capitalize test-name">software team</span>
+                            <span class="text-capitalize test-name">lieven sovag</span>
                             <span class="test-title">- Experieance share</span>
                         </div>
                         <div class="test-icon">
@@ -637,7 +654,7 @@
                     <div class="test-content">
                         <div class="test-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiudr incididunt ut labore et dolore magna aliqua. Ut enim a minim eniam, quis nostrud exercitation ullamco laboris nisi ut liquip ex ea cmmodo consequat.</p>
-                            <span class="text-capitalize test-name">Hardware team </span>
+                            <span class="text-capitalize test-name">bilton munic</span>
                             <span class="test-title">- sucessfull job</span>
                         </div>
                         <div class="test-icon">
@@ -665,7 +682,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                <p><span>Why we join on your school?</span> <i class="fa fa-chevron-right float-end"></i></p>
+                <p><span>What facilities we will get?</span> <i class="fa fa-chevron-right float-end"></i></p>
               </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -677,7 +694,7 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <p><span>Why we join on your school?</span> <i class="fa fa-chevron-right float-end"></i></p>
+                <p><span>Why we best another's?</span> <i class="fa fa-chevron-right float-end"></i></p>
               </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -737,7 +754,7 @@
                             </div>
                         </div>
                         <div class="teacher-info text-center position-absolute w-100">
-                            <span>Johan Rouhe</span>
+                            <span>thomas mila</span>
                             <p>Sr. Faculty Member</p>
                             <div class="t-line d-flex justify-content-center">
                                 <div class="l-large"></div>
@@ -757,7 +774,7 @@
                             </div>
                         </div>
                         <div class="teacher-info text-center position-absolute w-100">
-                            <span>Johan Rouhe</span>
+                            <span>addam jampa</span>
                             <p>Sr. Faculty Member</p>
                             <div class="t-line d-flex justify-content-center">
                                 <div class="l-large"></div>
@@ -777,7 +794,7 @@
                             </div>
                         </div>
                         <div class="teacher-info text-center position-absolute w-100">
-                            <span>Johan Rouhe</span>
+                            <span>warim furam</span>
                             <p>Sr. Faculty Member</p>
                             <div class="t-line d-flex justify-content-center">
                                 <div class="l-large"></div>
@@ -848,7 +865,7 @@
                                 <a href="#"><i class="fa fa-google-plus"></i></a>
                             </div>
                             <div class="blog-content position-absolute w-100">
-                                <h5>Education is the Backbone of a nation” It’s Proven</h5>
+                                <h5>Education enlighten your future, For it’s you have to work hard today</h5>
                                 <a href="#">https://education.com</a>
                                 <div class="row mt-3">
                                     <div class="col-lg-6 date pe-0 d-flex justify-content-start align-items-end">
@@ -909,7 +926,7 @@
                         <div class="blog-img position-relative overflow-hidden">
                             <img src="images/blog-last-img-3.png" alt="blog-last-img-3.png" class="w-100 img-fluid">
                             <div class="blog-content position-absolute w-100">
-                                <h5 class="mb-0">Traditional Elementary Education</h5>
+                                <h5 class="mb-0">Nominated best class blogs in 2018</h5>
                                 <a href="#">https://education.com</a>
                                 <div class="row mt-3">
                                     <div class="col-lg-6 col-6 view">
@@ -928,7 +945,7 @@
                         <div class="blog-img position-relative overflow-hidden">
                             <img src="images/blog-last-img-4.png" alt="blog-last-img-4.png" class="w-100 img-fluid">
                             <div class="blog-content position-absolute w-100">
-                                <h5 class="mb-0">Traditional Elementary Education</h5>
+                                <h5 class="mb-0">Blogs for Education & Knowledge</h5>
                                 <a href="#">https://education.com</a>
                                 <div class="row mt-3">
                                     <div class="col-lg-6 col-6 view">
@@ -983,183 +1000,219 @@
                 </div>
             </div>
         </div>
-        <div class="row main-portfolio-item m-0">
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix web">
+        <div class="row mx-0 row-cols-xl-6 row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 portfolio-main">
+            <div class="col-xl px-0 mix  photo">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img.jpg" alt="portfolio-img" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img.jpg" alt="portfolio-img" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>compass</h5>
+                                <p>photography</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix web">
+            <div class="col-xl px-0 mix web">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-2.jpg" alt="portfolio-img-2" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-2.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-2.jpg" alt="portfolio-img-2" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-2.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>developer</h5>
+                                <p>web design</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix graphic">
+            <div class="col-xl px-0 mix photo">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-3.jpg" alt="portfolio-img-3" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-3.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-3.jpg" alt="portfolio-img-3" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-3.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>mount averest</h5>
+                                <p>photography</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix graphic">
+            <div class="col-xl px-0 mix illus">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-4.jpg" alt="portfolio-img-4" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-4.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-4.jpg" alt="portfolio-img-4" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-4.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>skyscraper</h5>
+                                <p>ILLUSTRATION</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix photo">
+            <div class="col-xl px-0 mix graphic">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-5.jpg" alt="portfolio-img-5" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-5.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-5.jpg" alt="portfolio-img-5" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-5.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>night sky</h5>
+                                <p>graphic design</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix illus">
+            <div class="col-xl px-0 mix photo">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-6.jpg" alt="portfolio-img-6" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-6.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-6.jpg" alt="portfolio-img-6" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-6.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>model</h5>
+                                <p>photography</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix graphic">
+            <div class="col-xl px-0 mix web">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-7.jpg" alt="portfolio-img-7" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-7.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-7.jpg" alt="portfolio-img-7" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-7.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>developer</h5>
+                                <p>web design</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix photo">
+            <div class="col-xl px-0 mix graphic">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-8.jpg" alt="portfolio-img-8" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-8.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-8.jpg" alt="portfolio-img-8" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-8.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>amazone</h5>
+                                <p>graphic design</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix illus">
+            <div class="col-xl px-0 mix photo">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-9.jpg" alt="portfolio-img-9" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-9.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-9.jpg" alt="portfolio-img-9" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-9.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>ocean</h5>
+                                <p>photography</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix photo">
+            <div class="col-xl px-0 mix illus">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-10.jpg" alt="portfolio-img-10" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-10.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-10.jpg" alt="portfolio-img-10" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-10.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>rain forest</h5>
+                                <p>ILLUSTRATION</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix web">
+            <div class="col-xl px-0 mix web">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-11.jpg" alt="portfolio-img-11" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-11.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-11.jpg" alt="portfolio-img-11" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-11.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>cover page</h5>
+                                <p>web design</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-sm-4 col-md-3 col-6 p-0 mix illus">
+            <div class="col-xl px-0 mix photo">
                 <div class="portfolio-item">
                     <div class="portfolio-img position-relative">
-                        <img src="images/portfolio-img-12.jpg" alt="portfolio-img-12" class="img-fluid w-100">
-                        <div class="port-img-overlay position-absolute w-100 h-100 top-0 start-0">
-                            <div class="port-icon d-flex justify-content-center align-items-center">
-                                <a class="venobox" data-gall="gallery01" href="images/portfolio-img-12.jpg">
-                                    <i class="fa fa-search-plus"></i></a>
+                        <img src="images/portfolio-img-12.jpg" alt="portfolio-img-12" class="w-100 img-fluid">
+                        <div class="port-overlay position-absolute top-0 start-0 w-100 h-100">
+                            <div class="port-info text-center">
+                                <div class="port-icon-main d-flex justify-content-center">
+                                    <div class="port-icon">
+                                        <a class="venobox" data-gall="gallery01" href="images/portfolio-img-12.jpg"><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <h5>model</h5>
+                                <p>photography</p>
                             </div>
-                            <h5 class="text-uppercase text-capitalize mb-1 mb-2">compass</h5>
-                            <p class="text-uppercase text-capitalize">photography</p>
                         </div>
                     </div>
                 </div>
@@ -1313,78 +1366,111 @@
                 </div>
             </div>
         </div>
-        <div class="row mx-0 footer-slider-main">
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/1.png" alt="1" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+        <div class="row mx-0 foot-main">
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/1.png" alt="1" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/2.png" alt="2" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/2.png" alt="2" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/3.png" alt="3" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/3.png" alt="3" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/4.png" alt="4" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/4.png" alt="4" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/5.png" alt="5" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/5.png" alt="5" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/6.png" alt="6" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/6.png" alt="6" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/7.png" alt="7" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/4.png" alt="4" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="footer-img px-0 position-relative">
-                    <img src="images/5.png" alt="5" class="w-100 img-fluid">
-                    <div class="insta-link w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                        <a href="#" class="text-capitalize">instagra photos</a>
+            <div class="col-xl px-0">
+                <div class="foot-item">
+                    <div class="foot-slider position-relative">
+                        <div class="foot-img">
+                            <img src="images/7.png" alt="7" class="w-100 img-fluid">
+                        </div>
+                        <div class="foot-info position-absolute top-0 start-0 w-100 h-100">
+                            <span class="text-capitalize">instagram photos</span>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </footer>
 
     <!--footer part end-->
     <!--back-to-top part start-->
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <a href="#" class="back"><i class="fa fa-chevron-up"></i></a>
 
     <!--back-to-top part end-->
     <!--coppyright part start-->
