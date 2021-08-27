@@ -12,6 +12,10 @@ ol {
     list-style-type: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 /*preloader part start*/
 
@@ -398,13 +402,13 @@ ol {
 
 .banner-text a {
     font-family: 'Arimo', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #fff;
-    padding: 22px 22px;
+    padding: 15px 20px;
     background-color: #2d3e50;
     margin-right: 20px;
-    margin-top: 40px;
+    margin-top: 15px;
     border-radius: 5px;
     display: inline-block;
     transition: all linear .3s;
@@ -477,10 +481,9 @@ ol {
 
 #detl {
     position: relative;
-    top: -90px;
+    top: -55px;
     left: 0;
     z-index: 9999;
-    margin-left: 70px;
 }
 
 .detl-item {
@@ -489,7 +492,7 @@ ol {
 }
 
 .detl-icon {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .detl-icon i {
@@ -502,7 +505,7 @@ ol {
     font-size: 24px;
     font-weight: 400;
     color: #444;
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 .detl-content a {
@@ -510,7 +513,6 @@ ol {
     font-size: 14px;
     font-weight: 400;
     color: #999;
-    margin-bottom: 30px;
     transition: all linear .3s;
 }
 
@@ -989,7 +991,7 @@ input[type=radio]:checked {
 /*event part start*/
 
 #event {
-    padding-top: 101px;
+    padding-top: 75px;
 }
 
 .event-item {
@@ -1068,7 +1070,7 @@ input[type=radio]:checked {
 /*testimonial part start*/
 
 #test {
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: #f5f5f5;
     padding: 60px 0;
 }
@@ -1545,6 +1547,7 @@ input[type=radio]:checked {
     background-size: cover;
     background-position: center;
     padding-top: 30px;
+    margin-top: 95px;
 }
 
 .footer-logo-text p {

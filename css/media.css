@@ -1,47 +1,12 @@
-@media (max-width: 1600px) and (min-width: 1400px) {
-    /* topper part start*/
-    .login {
-        margin-right: 130px;
-    }
-    /* topper part end/
-    /* navbar part start*/
-    .button {
-        margin-right: 130px;
-    }
-    /* navbar part end*/
-    /* banner part start*/
-    #banner .right {
-        right: 110px;
-    }
-    /* banner part end*/
-    /*detl part start*/
-    #detl {
-        margin-left: 0;
-        margin-right: 65px;
-    }
-    /*detl part end*/
+@media (min-width: 1400px) {
     /*course part start*/
-    #courses {
-        margin-right: 180px;
-        margin-left: 80px;
+    .arrow-left {
+        display: none !important;
+    }
+    .arrow-right {
+        display: none !important;
     }
     /*course part end*/
-    /*testimonial part start*/
-    #test {
-        margin-right: 180px;
-        margin-left: 60px;
-    }
-    /*testimonial part end*/
-    /*back to top part start*/
-    .back {
-        right: 250px;
-    }
-    /*back to top part end*/
-    @media (max-width: 1800px) and (min-width: 1600px) {
-        #banner .right {
-            right: 300px;
-        }
-    }
 }
 
 @media (max-width: 1399px) and (min-width: 1200px) {
@@ -51,30 +16,32 @@
         padding-bottom: 15px;
     }
     /* navbar part end*/
-    /* detl part start*/
-    #detl {
-        margin-left: 0px;
+    /*banner part start*/
+    #banner img {
+        height: 450px;
+        object-fit: cover;
     }
-    /* detl part end*/
+    /*banner part end*/
     /* about part start*/
     #about {
         padding-top: 20px;
     }
     /* about part end*/
     /* course part start*/
-    .fee {
-        margin-left: 12px;
-    }
-    .main-course {
-        padding: 0 35px;
-    }
     .arrow-left {
-        left: -35px;
-        transform: scale(.9);
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        left: -60px;
     }
     .arrow-right {
-        right: -35px;
-        transform: scale(.9);
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        right: -60px;
+    }
+    .fee {
+        margin-left: 12px;
     }
     /* course part end*/
     /*back to top part start*/
@@ -92,16 +59,15 @@
     }
     /* navbar part end*/
     /* banner part start*/
+    #banner img {
+        height: 450px;
+        object-fit: cover;
+    }
     #banner .right,
     #banner .left {
         transform: scale(.9);
     }
     /* banner part end*/
-    /* detl part start*/
-    #detl {
-        margin-left: 0px;
-    }
-    /* detl part end*/
     /* about part start*/
     #about {
         padding-top: 20px;
@@ -116,9 +82,6 @@
     /* course part start*/
     .fee {
         margin-left: 12px;
-    }
-    .main-course {
-        padding: 0 120px;
     }
     /* course part end*/
     /* event part start*/
@@ -144,15 +107,14 @@
 @media (max-width: 991px) and (min-width: 768px) {
     /* navbar part start*/
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0px;
         padding-top: 15px;
     }
-    .button {
-        margin-top: 0px;
-        margin-bottom: 10px;
+    .navbar-brand img {
+        padding-bottom: 5px;
     }
-    .navbar-brand {
-        width: 18%;
+    .button {
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         font-size: 18px;
@@ -162,6 +124,10 @@
     }
     /* navbar part end*/
     /* banner part start*/
+    #banner img {
+        height: 450px;
+        object-fit: cover;
+    }
     .banner-text h3 {
         font-size: 40px;
     }
@@ -186,20 +152,12 @@
         padding: 0 50px;
     }
     /* banner part end*/
-    /* detl part start*/
-    #detl {
-        margin-left: 0px;
-    }
-    /* detl part end*/
     /* about part start*/
     #about {
         padding-top: 10px;
     }
     .head p {
         padding: 0 160px;
-    }
-    .slider {
-        width: 360px;
     }
     .about-content {
         padding-left: 0px;
@@ -217,11 +175,6 @@
         font-size: 16px;
     }
     /* about part end*/
-    /* course part start*/
-    .fee {
-        margin-left: 12px;
-    }
-    /* course part end*/
     /* event part start*/
     .pb-calender {
         padding: 0 120px;
@@ -244,10 +197,6 @@
     }
     .test-text p {
         margin-top: 20px;
-    }
-    .ad-width {
-        padding: 0 120px;
-        margin-top: 40px;
     }
     /* test part end*/
     /* teacher part start*/
@@ -281,18 +230,21 @@
     /* topper part end*/
     /* navbar part start*/
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0px;
         padding-top: 10px;
     }
-    .button {
-        margin-top: 0px;
-        margin-bottom: 10px;
+    .navbar-brand img {
+        padding-bottom: 5px;
     }
-    .navbar-brand {
-        width: 18%;
+    .button {
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     /* navbar part end*/
     /* banner part start*/
+    #banner img {
+        height: 600px;
+        object-fit: cover;
+    }
     .banner-text h3 {
         font-size: 28px;
     }
@@ -314,11 +266,6 @@
         margin-right: 12px;
     }
     /* banner part end*/
-    /* detl part start*/
-    #detl {
-        margin-left: 0px;
-    }
-    /* detl part end*/
     /* about part start*/
     #about {
         padding-top: 20px;
@@ -333,12 +280,6 @@
         font-size: 16px;
     }
     /* about part end*/
-    /* course part start*/
-    .arrow-left,
-    .arrow-right {
-        display: none !important;
-    }
-    /* course part end*/
     /* event part start*/
     .pb-calender {
         padding: 0 60px;
@@ -354,15 +295,6 @@
     /* testimonial part start*/
     #test {
         margin-top: 50px;
-    }
-    .ad-width {
-        padding: 0 60px;
-    }
-    .main-text {
-        padding: 0 60px;
-    }
-    .test-img {
-        padding: 0 60px;
     }
     /* testimonial part end*/
     /* teacher part start*/
@@ -412,15 +344,21 @@
     /* topper part end*/
     /* navbar part start*/
     .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 5px;
         padding-top: 10px;
     }
+    .navbar-brand img {
+        padding-bottom: 5px;
+    }
     .button {
-        margin-top: 0px;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
     /* navbar part end*/
     /* banner part start*/
+    #banner img {
+        height: 600px;
+        object-fit: cover;
+    }
     .banner-text h3 {
         font-size: 30px;
     }
@@ -447,9 +385,6 @@
     /* banner part end*/
     /* details part start*/
     #detl {
-        margin-left: 0px;
-    }
-    #detl {
         top: -55px;
     }
     /* details part end*/
@@ -469,9 +404,6 @@
         margin-right: 15px;
         margin-top: 30px;
     }
-    .slider {
-        margin-left: 50px;
-    }
     /* about part end*/
     /* counter part start*/
     p {
@@ -485,10 +417,6 @@
     }
     /* counter part end*/
     /* course part start*/
-    .arrow-left,
-    .arrow-right {
-        display: none;
-    }
     .conduct-name span {
         font-size: 13px;
     }
@@ -585,9 +513,4 @@
         font-size: 14px;
     }
     /* footer part end*/
-    /* back to top start*/
-    .back-to-top {
-        bottom: 40px;
-    }
-    /* back to top end*/
 }
