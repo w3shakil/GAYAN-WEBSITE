@@ -16,6 +16,11 @@ body {
     overflow-x: hidden;
 }
 
+html,
+body {
+    scroll-behavior: unset !important;
+}
+
 
 /*preloader part start*/
 
@@ -1509,34 +1514,6 @@ input[type=radio]:checked {
 
 
 /*portfolio part end*/
-
-
-/*project part start*/
-
-#project {
-    margin: 100px 0;
-}
-
-#project1 {
-    padding: 130px 0;
-}
-
-.img-text h3 {
-    font-family: 'Arimo', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #FBAA33;
-}
-
-.img-text p {
-    font-family: 'Arimo', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #FBAA33;
-}
-
-
-/*project part end*/
 
 
 /*footer part start*/

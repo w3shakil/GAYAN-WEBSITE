@@ -212,14 +212,6 @@
         padding-top: 105px !important;
     }
     /* blog part end*/
-    /* project part start*/
-    .img-text h3 {
-        text-align: center;
-    }
-    .img-text p {
-        text-align: center;
-    }
-    /* project part end*/
 }
 
 @media (max-width: 767px) and (min-width: 576px) {
@@ -315,14 +307,6 @@
         font-size: 12px;
     }
     /* portfolio part end*/
-    /* project part start*/
-    .img-text h3 {
-        text-align: center;
-    }
-    .img-text p {
-        text-align: center;
-    }
-    /* project part end*/
 }
 
 @media(max-width: 575.98px) {
@@ -500,14 +484,6 @@
         font-size: 13px;
     }
     /* portfolio part end*/
-    /* project part start*/
-    .img-text h3 {
-        text-align: center;
-    }
-    .img-text p {
-        text-align: center;
-    }
-    /* project part end*/
     /* footer part start*/
     .coppy-text p {
         font-size: 14px;
